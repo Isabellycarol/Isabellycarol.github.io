@@ -1,27 +1,24 @@
 :root{
-    --cor-principal: #2f86d6;
-    --cor-secundária-contraste: #ffca3a;
-    --cor-secundária: #ffa500 ;
-    
+    --cor-pricipal:#2f86d6;
+    --cor-secudaria-contraste: #ffca3a;
+    --cor-secundaria:#ffa500;
 }
-* {
+
+*{
     margin: 0;
     padding: 0;
-
 }
 
-
-.secao banner {
-    background-color:var(var(--cor-principal));
+.secao-banner{
+    background-color: var(--cor-pricipal);
     padding: 100px 0px;
-
 }
 
-body {
-    background-color: var(--cor-secundaria-contraste);
+body{
+    background-color: var(--cor-secudaria-contraste);
 }
 
-.container-banner {
+.container-banner{
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
@@ -29,7 +26,7 @@ body {
     flex-wrap: wrap;
 }
 
-.container-texto {
+.container-texto{
     color: #fff;
     padding: 10px 20px;
     flex: 1 1 300px;
@@ -37,18 +34,17 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-
 }
 
-.container-banner-imagem {
-    flex: grow 1;
+.container-banner-imagem{
+    flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 468px;
 }
 
-.container-banner-imagem img {
-    width: 100px;
-    height: 100px;
+.container-banner-imagem img{
+    width: 100%;
+    height: 100%;
 }
 
 .secao-cards{
@@ -59,6 +55,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .container-cards-pais,
 .container-cards-filhos{
     max-width: 1024px;
@@ -66,42 +63,48 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap:20px;
+    gap: 20px;
 }
 
-.card {
+.card{
     width: 280px;
     height: 450px;
-    background-color: var(--cor-principal);
+    background-color: var(--cor-pricipal);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0 0 0;
+    padding: 100px 0 0 0;
     text-align: center;
 }
+
 .card-info{
-    background-color: var(--cor-secundaria-2);
+    background-color: var(--cor-pricipal);
     flex-grow: 1;
 }
+
 .container-card-imagem{
     height: 150px;
 }
+
 .container-card-imagem img{
-    width: 100px;
+    width: 100%;
     height: 100%;
 }
 
-h2 {
-    font-size: 26px;
+h2{
+    font-size: 30px;
     text-transform: uppercase;
     text-align: center;
+
 }
 
-h3 {
-    font-size: 26px;
+h3{
+    font: 26px;
     margin: 60px 0;
+
 }
-#fonte {
+
+#fonte{
     text-align: right;
 }
