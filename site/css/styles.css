@@ -1,3 +1,8 @@
+:root {
+    --cor1: #222;
+    --cor2: #333;
+}
+background-color: var(--cor1);
 h1 {
      color:black
 
@@ -152,5 +157,12 @@ header{
     font-style: Arial(sans-serif);
     text-align: center;
     border-radius: 60px;
+
+}
+.div-cards {
+    border: 40px solid rgb(160, 136, 0);
+    display: flex;
+    flex-wrap: wrap;
+    
 
 }
