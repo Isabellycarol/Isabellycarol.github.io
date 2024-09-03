@@ -50,6 +50,14 @@ body{
 
 
 }
+#img-4{
+ 
+    border-radius: 10px;
+    margin-top: 30x;
+    
+    text-align: center;
+
+}
 
 div{
     border: 5px dashed rgba(153, 0, 255, 0.76);
@@ -70,6 +78,7 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    margin-center: 50px;
   }
   
   caption {
@@ -92,7 +101,12 @@ table {
   td:last-of-type {
     text-align: center;
   }
-  
+  table {
+    margin: auto;
+  }
+  #cont {
+    text-align: center;
+  }
   tbody > tr:nth-of-type(even) {
     background-color: rgb(237 238 242);
   }
@@ -102,6 +116,21 @@ table {
   }
   
   tfoot td {
-    font-weight: bold;
+    font-weight: bold;    
   }
 
+  #contato{
+    text-align: center;
+  }
+
+  #inicial{
+       background-color: rgba(133, 30, 207, 0.473);
+       color: branco;
+       text-align:centro;
+       padding:10px 0;
+       text-align: center;
+      
+
+  }
+
+  
