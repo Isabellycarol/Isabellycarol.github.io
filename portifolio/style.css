@@ -4,9 +4,11 @@ nav{
     padding: 10px 0px;
     margin: 5px 20px; 
     font-size:30px;
-    color: rgba(133, 30, 207, 0.473);
+    color: rgba(104, 8, 173, 0.712);
     border-radius: 30px;
     text-decoration:none;
+    margin-bottom: 2%;
+    box-shadow: 0 8px 10px rgb(136, 62, 179);
 }
 ul {
     display: flex;
@@ -21,7 +23,7 @@ p{
 }
 
 body{
-    background:rgba(133, 30, 207, 0.473);
+    background:rgba(224, 181, 255, 0.562);
 }
 
 #img-1{
@@ -30,6 +32,8 @@ body{
     margin-top: 30x;
     width: 800px;
     margin: auto;
+    margin: center
+
 
 }
 
@@ -53,15 +57,16 @@ body{
 #img-4{
  
     border-radius: 10px;
-    margin-top: 30x;
-    
-    text-align: center;
+ 
 
 }
 
 div{
-    border: 5px dashed rgba(153, 0, 255, 0.76);
+    border: 3px dashed rgba(153, 0, 255, 0.76);
     padding: 3%;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
     
 }
 
@@ -123,13 +128,33 @@ table {
     text-align: center;
   }
 
+  
+
   #inicial{
        background-color: rgba(133, 30, 207, 0.473);
        color: branco;
        text-align:centro;
        padding:10px 0;
        text-align: center;
-      
+       font-family: 'poetsen one', sans-serif;
+       text-decoration: none;
+       display: block;
+      border: solid;
+      width: max-content;
+      padding: 2px;
+      color: blueviolet;
+      border-radius: 25px;
+      border-radius:15px ;
+      background-color: blueviolet;
+      font-size: 20px;
+      margin: auto;
+
+  }
+
+  #lista_series {
+    width: fit-content;
+    font-size: 40px;
+   
 
   }
 
